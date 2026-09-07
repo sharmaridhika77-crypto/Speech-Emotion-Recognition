@@ -45,3 +45,7 @@ This project helped in understanding:
 - How raw audio can be converted into meaningful numerical features
 - How machine learning models can classify audio-based emotional patterns
 - End-to-end workflow of a speech-based AI system: data → features → model → prediction
+- ## Addon Features
+1. **Emotion Timeline Tracking** — Splits audio into small time windows and predicts emotion for each, showing how emotion changes over the duration of a clip. Useful for interviews, meetings, and podcasts.
+2. **Emotion Heatmap Visualization** — Displays emotional intensity across time as an interactive color-coded heatmap.
+3. **Multilingual Emotion Recognition** — The model uses acoustic features (MFCC, Chroma, Mel-spectrogram) that capture pitch, tone, and energy patterns rather than words. This makes emotion detection naturally language-independent — it can work on English, Hindi, Gujarati, or any language, since it recognizes *how* something is said rather than *what* is said.
